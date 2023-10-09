@@ -19,7 +19,6 @@ class FCNN_device:
         self.batch_size = None
         self.learning_rate = None
         self.q = None
-        self.testval = 0
 
     def set_run_options(self, loss_func, tau, batch_size, learning_rate, q):
         self.model.set_batch_size(batch_size)
