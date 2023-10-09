@@ -1,6 +1,6 @@
 from FCNN import FCNN
 import copy
-
+# written in collaboration with Henning Norén
 class FCNN_device:
     def __init__(self, layer_specs, train_X, train_y, test_X, test_y):
         self.model = FCNN(layer_specs)
